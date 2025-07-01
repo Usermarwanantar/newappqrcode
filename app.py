@@ -9,7 +9,12 @@ import urllib.parse
 UPLOAD_DIR = "static/uploaded"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+<<<<<<< HEAD
 # 🌍 Lien réel de ton app (⚠️ vérifie bien qu’il est exact)
+=======
+# 🌍 URL de base de ton application Streamlit Cloud
+# 🛠️ À modifier après déploiement (ex: https://monapp.streamlit.app)
+>>>>>>> dbc8e693ca269f7c174bea6a75e346d9ba691c8d
 APP_BASE_URL = "https://newappqrcode-b844r2wqzg8xgytpjuchld.streamlit.app"
 
 # 💻 Interface Streamlit
