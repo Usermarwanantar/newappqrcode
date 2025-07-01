@@ -10,7 +10,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # 🌍 URL de base de ton application Streamlit Cloud
 # 🛠️ À modifier après déploiement (ex: https://monapp.streamlit.app)
-APP_BASE_URL = "https://ton-app.streamlit.app"
+APP_BASE_URL = "https://newappqrcode-b844r2wqzg8xgytpjuchld.streamlit.app"
 
 st.set_page_config(page_title="Uploader + QR", layout="centered")
 st.title("📁 Uploader un fichier et générer un QR Code")
